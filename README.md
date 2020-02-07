@@ -7,7 +7,7 @@ tensorflow of ckpt to keras of h5
 
 
 
-2.查找MD5：certutil -hashfile  efficientnet-b2 MD5
+2.查找MD5：cmd命令:certutil -hashfile  efficientnet-b2 MD5
 
 
 
