@@ -101,7 +101,7 @@ def load_pretrained_weights(model, fname, origin, md5_hash, background_label=Fal
         model.load_weights(weight_path)
     else:
         #path = get_file(fname, origin=origin, extract=True, md5_hash=md5_hash, cache_dir=cache_dir)
-        path='C:\\Users\\zhangzheng\\.keras\\models\\datasets\\efficientnet-b2\\'
+        path='yourmodelpath'
         checkpoint_file = os.path.join(path, 'model.ckpt')
         print(checkpoint_file)
         load_weights_from_tf_checkpoint(model, checkpoint_file, background_label)
